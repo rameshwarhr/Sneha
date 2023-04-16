@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Com.SauceDemo.TestClassess.TC01LoginFunctionality">
+      <class name="Com.SauceDemo.TestClassess.TC09verifyAboutButton">
         <methods>
+          <include name="aboutButton"/>
           <include name="setUp"/>
-          <include name="loginFunctionality"/>
           <include name="browserClosed"/>
           <include name="openBrowser"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- Com.SauceDemo.TestClassess.TC01LoginFunctionality -->
+      </class> <!-- Com.SauceDemo.TestClassess.TC09verifyAboutButton -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
